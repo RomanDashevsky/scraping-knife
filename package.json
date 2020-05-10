@@ -1,0 +1,38 @@
+{
+  "name": "scraping-knife",
+  "version": "0.0.1",
+  "description": "Multi-tools for scraping web pages. It helps inject popular JS libraries for scraping to web page.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanDashevsky/scraping-knife.git"
+  },
+  "keywords": [
+    "web",
+    "sraping",
+    "utils",
+    "libraries"
+  ],
+  "author": "Roman Dashevsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomanDashevsky/scraping-knife/issues"
+  },
+  "homepage": "https://github.com/RomanDashevsky/scraping-knife#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "unique-selector": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.38",
+    "@types/lodash": "^4.14.150",
+    "ts-loader": "^7.0.3",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
