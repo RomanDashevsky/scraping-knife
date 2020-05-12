@@ -2,7 +2,7 @@ import * as $ from 'jquery';
 import * as _ from 'lodash';
 import unique from 'unique-selector';
 import getSnippetFromElement from 'snippet-from-dom-element';
-import { LoDashStatic } from 'lodash'
+import { LoDashStatic } from 'lodash';
 
 declare global {
   interface Window {
@@ -24,9 +24,11 @@ const initHtmlElementsUtils = (): void => {
     _,
     utils: {
       getUniqueSelector: unique,
-      getSnippetFromElement: getSnippetFromElement,
+      getSnippetFromElement: getSnippetFromElement
     }
   };
 };
 
 initHtmlElementsUtils();
+
+export default initHtmlElementsUtils;
