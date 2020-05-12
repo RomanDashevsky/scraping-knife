@@ -1,6 +1,7 @@
-import unique from 'unique-selector';
 import * as $ from 'jquery';
 import * as _ from 'lodash';
+import unique from 'unique-selector';
+import getSnippetFromElement from 'snippet-from-dom-element';
 
 declare global {
   interface Window {
@@ -8,7 +9,8 @@ declare global {
       $: any,
       _: any,
       utils: {
-        getUniqueSelector: (el: Element) => string;
+        getUniqueSelector: (element: Element) => string;
+        getSnippetFromElement: (element: Element, innerContentLength: number) => string;
       }
     };
   }
@@ -21,6 +23,7 @@ const initHtmlElementsUtils = () => {
     _,
     utils: {
       getUniqueSelector: unique,
+      getSnippetFromElement: getSnippetFromElement,
     }
   };
 };
