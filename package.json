@@ -30,7 +30,7 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "lodash": "^4.17.15",
-    "snippet-from-dom-element": "^0.4.1",
+    "snippet-from-dom-element": "^0.5.1",
     "unique-selector": "^0.4.1"
   },
   "devDependencies": {
