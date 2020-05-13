@@ -8,8 +8,14 @@ Scraping-knife is an aggregating tool that provides an easy way to add libraries
 
 ## Install 
 
+For npm:
 ```bash
 npm install --save scraping-knife
+```
+
+For yarn:
+```bash
+yarn add scraping-knife
 ```
 
 ## Example
