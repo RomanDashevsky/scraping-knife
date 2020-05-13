@@ -43,7 +43,6 @@ const results = await page.evaluate(async () => {
 });
 await page.close();
 await browser.close();
-console.log(results);
 ```
 
 ## License
