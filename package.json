@@ -1,6 +1,6 @@
 {
   "name": "scraping-knife",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Multi-tools for scraping web pages. It helps inject popular JS libraries for scraping to web page.",
   "main": "dist/index.js",
   "scripts": {
