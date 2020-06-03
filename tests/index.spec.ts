@@ -28,4 +28,8 @@ describe('SK init test', () => {
   it('SK.utils should has getSnippetFromElement', () => {
     expect(window.SK.utils.getSnippetFromElement).not.toBeUndefined();
   });
+
+  it('SK.utils should has getSelectorFromXPath', () => {
+    expect(window.SK.utils.getSelectorFromXPath).not.toBeUndefined();
+  });
 });
