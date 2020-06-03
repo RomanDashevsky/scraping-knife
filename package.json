@@ -31,7 +31,8 @@
     "jquery": "^3.5.1",
     "lodash": "^4.17.15",
     "snippet-from-dom-element": "^0.5.2",
-    "unique-selector": "^0.4.1"
+    "unique-selector": "^0.4.1",
+    "xpath-to-css": "^1.0.5"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
