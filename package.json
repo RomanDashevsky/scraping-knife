@@ -1,6 +1,6 @@
 {
   "name": "scraping-knife",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Multi-tools for scraping web pages. It helps inject popular JS libraries for scraping to web page.",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "jest --ci",
     "pretty": "pretty-quick --staged",
     "pretty:project": "pretty-quick",
-    "deploy": "npm publish --access public"
+    "deploy": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
